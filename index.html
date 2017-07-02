@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css\main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+ <body>
+  <div class="container-fluid">
+  <header>
+  <!-----------------------------------------------------------nav bar----------------------------------------------------------->
+  <nav class="navbar navbar-default" id="header">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+       <a class="navbar-brand white-text " href="#">  <img src="https://facebookbrand.com/wp-content/themes/fb-branding/prj-fb-branding/assets/images/fb-art.png"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input class="form-control nikita" placeholder="Search Here" size="40">
+        </div>
+        <button type="submit" class="btn btn-default emo"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+      </form>
+	  <ul class ="nav navbar-nav navbar-right" id="white-text">
+        <li><a href="#"class="white-text"><img src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-0/p206x206/12744022_139299893123943_2392805343527727690_n.jpg?oh=c40ec7c5c5d079e2820a535ba6f90318&oe=59D515EE"> Nikita Mahajan</a></li>
+		<li><a href="#"class="white-text">Home</a></li>
+		<li><a href="#"id="white-text "><span class="glyphicon glyphicon-user "  aria-hidden="true"></span></a></li>
+		<li><a href="#"id="white-text "><span class="glyphicon glyphicon-envelope "  aria-hidden="true"></span></a></li>
+		<li><a href="#"id="white-text "><span class="glyphicon glyphicon-globe"  aria-hidden="true"></span></a></li>
+		<li><a href="#"id="white-text "><span class="glyphicon glyphicon-question-sign "  aria-hidden="true"></span></a></li>
+		
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle white-text "  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="caret glyphicon"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+  
+  </header>
+  <!------------------------------------------------------------------------sidebar start------------------------------------------------------------------->
+<div class="container" id="wrapper">
+      <div class="row">
+        <div class="hidden-xs col-sm-4 col-md-3">
+           <div id="menu">
+				<ul class="nav nav-pills nav-stacked">
+				
+				  <li role="presentation"><a href="#" class="sidebar-color"><img src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-0/p206x206/12744022_139299893123943_2392805343527727690_n.jpg?oh=c40ec7c5c5d079e2820a535ba6f90318&oe=59D515EE"> Nikita Mahajan</a></li>
+				  <li role="presentation"><a href="#" class="sidebar-color"><span class="glyphicon glyphicon-list-alt " aria-hidden="true"  ></span> News Feed</a></li>
+				  <li role="presentation"><a href="#" class="sidebar-color"><img src="https://cdn.worldvectorlogo.com/logos/facebook-messenger.svg"> Messenger  <span class="badge">7</span></a></li>
+				</ul>
+				
+				<ul class="nav nav-pills nav-stacked">
+				<p class="list-heading">SHORTCUTS</p>
+				  <li role="presentation"><a href="#" class="sidebar-color"><img src="http://saudeemsuasmaos.com/wp-content/uploads/2016/08/grupo-face.jpg"> M.s.c rokeeersss........</a></li>
+				  <li role="presentation"><a href="#" class="sidebar-color"><img src="https://lh3.googleusercontent.com/GWfQhWY8bFwJipJZW5zdZ3EPG7oOP88diyyDzYVDJGZde7EcKsF9LbVXETD0RZtusM9R=w300"> G.P.K COMPUTER ENGG.....</a></li>
+				</ul>
+				
+				<ul class="nav nav-pills nav-stacked">
+				<p class="list-heading">EXPLORE</p>
+				  <li role="presentation"><a href="#" class="sidebar-color"><img src="http://icongal.com/gallery/image/41468/calendar_event_date.png"> Events <span class="badge">8</span></a></li>
+				  <li role="presentation"><a href="#" class="sidebar-color"><img src="https://lh3.googleusercontent.com/GWfQhWY8bFwJipJZW5zdZ3EPG7oOP88diyyDzYVDJGZde7EcKsF9LbVXETD0RZtusM9R=w300"> Groups</a></li>
+				  <li role="presentation"><a href="#" class="sidebar-color"><img src="https://conversionxl.com/wp-content/uploads/2016/09/logo2-1-533x426.png"> Games </a></li>
+				  <li role="presentation"><a href="#" class="sidebar-color"><img src="https://s3.amazonaws.com/static.clyxo.com/img/social/facebookpage.jpg"> Pages </a></li>
+				  <li role="presentation"><a href="#" class="sidebar-color"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS2lKiujzUbcifJfHEa2niMyltwbNt1Wja9LPvf-qzKD4OPX2HxbQ"> Pokes <span class="badge">10</span></a></li>
+				  <li role="presentation"><a href="#" class="sidebar-color"><img src="http://breduffy.com/portfolio/monstermaps/images/marker_3.png"> Suggest Edits</a></li>
+				  <li role="presentation"><a href="#" class="sidebar-color"><img src="data:image/png;base64,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"> Games Feed </a></li>
+				</ul>
+			    <ul class="nav nav-pills ">
+				<p class="list-heading">CREATE</p>
+				  <li role="presentation "><a href="#">Advert</a></li>
+				  <li role="presentation "><a href="#">Page</a></li>
+				  <li role="presentation "><a href="#">Group</a></li>
+				 
+				</ul>
+				
+				
+            </div>	
+		</div>
+	<!----------------------------------------------------------slidebar close------------------------------------------------------------>	
+		
+		
+		
+        <div class="col-xs-12 col-sm-8 col-md-6">
+		 <div id="main">
+		        <div class="panel panel-default">
+				  <div class="panel-heading">
+				  <ul class="nav nav-pills ">
+					  <li role="presentation "><a href="#"><span class="glyphicon glyphicon-pencil " aria-hidden="true"  ></span>  Create a post</a></li>
+					  <li role="presentation "><a href="#"><span class="glyphicon glyphicon-film " aria-hidden="true"  ></span>  video/photo Album</a></li>
+					  <li role="presentation "><a href="#"><span class="glyphicon glyphicon-facetime-video " aria-hidden="true"  ></span>  Live video</a></li>
+				  </ul>
+				  </div>
+				  <div class="panel-body">
+				  <img src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-0/p206x206/12744022_139299893123943_2392805343527727690_n.jpg?oh=c40ec7c5c5d079e2820a535ba6f90318&oe=59D515EE">
+					<span id="placeholder" aria-hidden="true">
+					<input  class="eli" placeholder="Hi Nikita .Tell Your Friends About Your Day?"></span>
+				  </div>
+				  <div class="panel-heading">
+				  <ul class="nav nav-pills ">
+					  <li role="presentation "><a href="#"><span class="glyphicon glyphicon-film " aria-hidden="true"  ></span>  Photo/video</a></li>
+					  <li role="presentation "><a href="#"><img src="https://s-media-cache-ak0.pinimg.com/236x/63/4c/e0/634ce0008c346cdf855147d90f4e7c4a--cartoon-faces-smiley-faces.jpg">  Feeling/Activity</a></li>
+					  <li role="presentation "><a href="#"><img src="http://breduffy.com/portfolio/monstermaps/images/marker_3.png">  Check In </a></li>
+					  <li role="presentation "><a href="#"><span class="glyphicon glyphicon-user " aria-hidden="true"  ></span> Tag Friends </a></li>
+				       
+				 </ul>
+				  </div>
+				</div>
+				
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h3 class="panel-title ">
+					<img src="http://www.mystatus360.com/wp-content/uploads/2016/06/scripture-quotes-4.jpg"> 
+					<span class="content-title"><a href="#">Quotes</a> added a quotes</span>
+					<div><p class="time-bar"> April 18 at 1:9am</p></div>
+					</h3>
+					
+				  </div>
+				  <div class="panel-body">
+				  <div><h3>Searching for a new laptop online is basically forcing your current computer to dig its own grave. </h3></div>
+					<div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+                    <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+					<span><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>Share</span>
+                  </div>
+				  </div>
+				  <div class="panel-footer">
+				  		<div class="media">
+							  <div class="media-left">
+								<a href="#">
+								<img class="media-object" src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/18221902_407292566324673_4605785604328573075_n.jpg?oh=8d01494188bc1fba2ff2496a5eebfb63&oe=59E08EA1">
+								</a>
+							  </div>
+							  <div class="media-body">
+								<p class="comment"><span><a href="#"> Nikita Mahajan</a></span> Wow, that's really insightful!</p>
+								<div>
+							 <small> 
+	                          <span> <a href="#">Like </a></span> <span> <a href="#">  Reply </a></span>
+							  </small>
+							  </div>
+							
+							
+							
+							<ul class="media-list">
+							  <li class="media">
+							  <div class="media-left">
+								<a href="#">
+								<img class="media-object" src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/18301178_1859882997563014_3404238628006922723_n.jpg?oh=c35fbab4230fcfb138a258f1ea573a3b&oe=59D86A8C">
+								</a>
+							  </div>
+							  <div class="media-body">
+							   
+							 <p class="comment"><span><a href="#"> Elina Singh</a></span> nice.... </p>
+							 <div>
+							 <small> 
+	                          <span> <a href="#">Like </a></span> <span> <a href="#"> Reply </a></span>
+							  </small>
+							  </div>
+							  </div>
+							   </li>
+							   </ul>
+							  
+							   
+							   <ul class="media-list">
+							  <li class="media">
+							  <div class="media-left">
+								<a href="#"><img class="media-object" src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/17904423_824430737708399_2462235606546461147_n.jpg?oh=b447727eb24adf9b2d9dccce50eebec2&oe=59C7AD14">
+								</a>
+							  </div>
+							  <div class="media-body">
+							  
+								<p class="comment"><span><a href="#"> Divya Gupta </a></span> Nice lines... </p>
+								 <div>
+							 <small> 
+	                          <span> <a href="#">Like </a></span> <span> <a href="#">  Reply </a></span>
+							  </small>
+							  </div>
+							  </div>
+							    </li>
+							    </ul>
+							 
+							   
+							   
+							   
+							    <ul class="media-list">
+							    <li class="media">
+							    <div class="media-left">
+								<a href="#">
+								
+								<img class="media-object" src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/18194007_881759175300070_790353413156940604_n.jpg?oh=d8bd1f64859870ddd819910db5879e24&oe=59DA0C27">
+								</a>
+							  </div>
+							  <div class="media-body">
+							  
+								<p class="comment"><span><a href="#"> Tanya Mehra </a></span> Nice... </p>
+								 <div>
+							 <small> 
+	                          <span> <a href="#">Like </a></span> <span> <a href="#">  Reply </a></span>
+							  </small>
+							  </div>
+							  </div>
+							  </li>
+							  </ul>
+							       </div>
+							    </div>
+							   
+							   
+							   
+							   
+							   
+				  <img src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-0/p206x206/12744022_139299893123943_2392805343527727690_n.jpg?oh=c40ec7c5c5d079e2820a535ba6f90318&oe=59D515EE"> <input class="eli" placeholder="Write a comment"></div>
+									
+				
+				</div>
+				
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h3 class="panel-title">
+					<img src="http://www.conisbroughcastle.org.uk/images/ivanhoe/sir-walter-scott.jpg">
+					<span class="content-title"><a href="#" >Walter Scott </a> added a photo</span>
+					<div><p class="time-bar">june 27 at 10:30pm</p></div>
+					</h3>
+					
+				  </div>
+				  <div class="panel-body">
+				   <div>
+						<blockquote>
+						  <p>All men who have turned out worth anything have had the chief hand in their own education.</p>
+						  <footer>Walter Scott</footer>
+						</blockquote>
+					</div>
+					<div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+                    <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+					<span><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>Share</span>
+                  </div>
+				  </div>
+				  <div class="panel-footer">
+				  <div class="media">
+							  <div class="media-left">
+								<a href="#"><img class="media-object" src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/18221902_407292566324673_4605785604328573075_n.jpg?oh=8d01494188bc1fba2ff2496a5eebfb63&oe=59E08EA1">
+								</a>
+							  </div>
+							  <div class="media-body">
+								<p class="comment"><span><a href="#"> Nikita Mahajan</a></span> Wow, that's really insightful!</p>
+								<div>
+							 <small> 
+	                          <span> <a href="#">Like </a></span> <span> <a href="#">  Reply </a></span>
+							  </small>
+							  </div>
+							 
+							
+							
+							<ul class="media-list">
+							  <li class="media">
+							  <div class="media-left">
+								<a href="#">
+								<img class="media-object" src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/18301178_1859882997563014_3404238628006922723_n.jpg?oh=c35fbab4230fcfb138a258f1ea573a3b&oe=59D86A8C">
+								</a>
+							  </div>
+							  <div class="media-body">
+							  
+								<p class="comment"><span><a href="#"> Elina Singh</a></span> nice... </p>
+								 <div>
+							 <small> 
+	                          <span> <a href="#">Like </a></span> <span> <a href="#"> Reply </a></span>
+							  </small>
+							  </div>
+							  </div>
+							   </li>
+							   </ul>
+							   
+							   
+							   <ul class="media-list">
+							  <li class="media">
+							  <div class="media-left">
+								<a href="#"><img class="media-object" src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/17904423_824430737708399_2462235606546461147_n.jpg?oh=b447727eb24adf9b2d9dccce50eebec2&oe=59C7AD14">
+								</a>
+							  </div>
+							  <div class="media-body">
+							 
+								<p class="comment"><span><a href="#"> Divya Gupta </a></span> Nice lines... </p>
+								 <div>
+							 <small> 
+	                          <span> <a href="#">Like </a></span> <span> <a href="#">  Reply </a></span>
+							  </small>
+							  </div>
+							  </div>
+							    </li>
+							    </ul>
+							 
+							   
+							   
+							   
+							    <ul class="media-list">
+							    <li class="media">
+							    <div class="media-left">
+								<a href="#"><img class="media-object" src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/18194007_881759175300070_790353413156940604_n.jpg?oh=d8bd1f64859870ddd819910db5879e24&oe=59DA0C27">
+								</a>
+							  </div>
+							  <div class="media-body">
+							  
+								<p class="comment"><span><a href="#"> Tanya Mehra </a></span> Nice... </p>
+								 <div>
+							 <small> 
+	                          <span> <a href="#">Like </a></span> <span> <a href="#">  Reply </a></span>
+							  </small>
+							  </div>
+							  </div>
+							  </li>
+							  </ul>
+				                 </div>
+							    </div>
+				  
+				  
+				  <img src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-0/p206x206/12744022_139299893123943_2392805343527727690_n.jpg?oh=c40ec7c5c5d079e2820a535ba6f90318&oe=59D515EE"> 
+				  <input class="eli"placeholder="Write a comment"></div>
+				</div>
+				
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h3 class="panel-title">
+					<img src="https://hdfreewallpaper.net/wp-content/uploads/2015/08/funny-hd-wallpapers-download-3D-free-for-desktop.jpg"> 
+					<span class="content-title"><a href="#">Funny Joke </a> added a photo</span>
+					<div><p class="time-bar"> june 20 at 11:00am</p></div>
+					</h3>
+				  </div>
+				  <div class="panel-body">
+				  <div class="img-size">
+						<img id="niki" src="http://www.folomojo.com/wp-content/uploads/2015/02/16/104.jpg" class="img-responsive" alt="Responsive image">
+				  </div>
+					<div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+                    <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+                     <span><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>Share</span> 
+				  </div>
+				  </div>
+				  <div class="panel-footer">
+				  <div class="media">
+							  <div class="media-left">
+								<a href="#">
+								<img class="media-object" src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/18221902_407292566324673_4605785604328573075_n.jpg?oh=8d01494188bc1fba2ff2496a5eebfb63&oe=59E08EA1">
+								</a>
+							  </div>
+							  <div class="media-body">
+								<p class="comment"><span><a href="#"> Nikita Mahajan</a></span> Wow, that's really insightful!</p>
+								<div>
+							 <small> 
+	                          <span> <a href="#">Like </a></span> <span> <a href="#">  Reply </a></span>
+							  </small>
+							  </div>
+							  
+							
+							
+							<ul class="media-list">
+							  <li class="media">
+							  <div class="media-left">
+								<a href="#">
+								<img class="media-object" src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/18301178_1859882997563014_3404238628006922723_n.jpg?oh=c35fbab4230fcfb138a258f1ea573a3b&oe=59D86A8C">
+								</a>
+							  </div>
+							  <div class="media-body">
+							   
+								<p class="comment"><span><a href="#"> Elina Singh</a></span> wow.... </p>
+								 <div>
+							 <small> 
+	                          <span> <a href="#">Like </a></span> <span> <a href="#"> Reply </a></span>
+							  </small>
+							  </div>
+							  </div>
+							   </li>
+							   </ul>
+							   
+							   
+							   <ul class="media-list">
+							  <li class="media">
+							  <div class="media-left">
+								<a href="#"><img class="media-object" src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/17904423_824430737708399_2462235606546461147_n.jpg?oh=b447727eb24adf9b2d9dccce50eebec2&oe=59C7AD14">
+								</a>
+							  </div>
+							  <div class="media-body">
+							 
+								<p class="comment"><span><a href="#"> Divya Gupta </a></span> Hahahahah </p>
+								 <div>
+							 <small> 
+	                          <span> <a href="#">Like </a></span> <span> <a href="#">  Reply </a></span>
+							  </small>
+							  </div>
+							  </div>
+							    </li>
+							    </ul>
+							 
+							   
+							   
+							   
+							    <ul class="media-list">
+							    <li class="media">
+							    <div class="media-left">
+								<a href="#">
+								<img class="media-object" src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/18194007_881759175300070_790353413156940604_n.jpg?oh=d8bd1f64859870ddd819910db5879e24&oe=59DA0C27">
+								</a>
+							  </div>
+							  <div class="media-body">
+							  
+								<p class="comment"><span><a href="#"> Tanya Mehra </a></span> Nice... </p>
+								 <div>
+							 <small> 
+	                          <span> <a href="#">Like </a></span> <span> <a href="#">  Reply </a></span>
+							  </small>
+							  </div>
+							  </div>
+							  </li>
+							  </ul>
+				                </div>
+							    </div>
+				  
+				  
+				  
+				  
+				  <img src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-0/p206x206/12744022_139299893123943_2392805343527727690_n.jpg?oh=c40ec7c5c5d079e2820a535ba6f90318&oe=59D515EE">
+				  <input class="eli" placeholder="Write a comment"></div>
+				</div>
+				
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h3 class="panel-title ">
+					<img src="https://lh3.googleusercontent.com/0Frw5c1X3AjrrqHgsK7tIz-uNQQfzGrVmg86UKxs5M8zJpuBrNPqnCqerPJFHuHACIEm-dsEQy1zFWOnjQ"> 
+					<span class="content-title"><a href="#" > Tom nd Jerry</a> shared a video.</span>
+					<div><p class="time-bar"> jan. 10 at 2:30am</p></div>
+					</h3>
+					
+				  </div>
+				  <div class="panel-body">
+				  <!------- 4:3 aspect ratio--->
+				   <div class="embed-responsive embed-responsive-4by3">
+				  <iframe width="560" height="315" src="https://www.youtube.com/embed/o5rEqjOeKp0" frameborder="0" allowfullscreen></iframe>
+							</div>
+
+		            <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+                    <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+					<span><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>Share</span>
+                  </div>
+				  
+				  </div>
+				  <div class="panel-footer">
+				             <div class="media">
+							  <div class="media-left">
+								<a href="#">
+								<img class="media-object" src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/18221902_407292566324673_4605785604328573075_n.jpg?oh=8d01494188bc1fba2ff2496a5eebfb63&oe=59E08EA1">
+								</a>
+							  </div>
+							  <div class="media-body">
+								<p class="comment"><span><a href="#">Nikita Mahajan</a></span> Hahahahah </p>
+								<div>
+							 <small> 
+	                          <span> <a href="#">Like </a></span> <span> <a href="#"> Reply </a></span>
+							  </small>
+							  </div>
+							   
+							   
+							  
+							    <ul class="media-list">
+							  <li class="media">
+							  <div class="media-left">
+								<a href="#">
+								<img class="media-object" src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/18301178_1859882997563014_3404238628006922723_n.jpg?oh=c35fbab4230fcfb138a258f1ea573a3b&oe=59D86A8C">
+								</a>
+							  </div>
+							  <div class="media-body">
+							 
+								<p class="comment"><span><a href="#"> Elina Singh</a></span> nice  video </p>
+								 <div>
+							 <small> 
+	                          <span> <a href="#">Like </a></span> <span> <a href="#">  Reply </a></span>
+							  </small>
+							  </div>
+							  </div>
+							   </li>
+							   </ul>
+							   
+							   
+							   
+							   
+							   
+							   <ul class="media-list">
+							  <li class="media">
+							  <div class="media-left">
+								<a href="#">
+								<img class="media-object" src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/18882021_1581024575295033_2561174746352412043_n.jpg?oh=94219e615bca838fce22d96d2ac39ab9&oe=59DA1656">
+								</a>
+							  </div>
+							  <div class="media-body">
+							  
+								<p class="comment"><span><a href="#"> Shivangi Gautam </a></span> Nice..... </p>
+								 <div>
+							 <small> 
+	                          <span> <a href="#">Like </a></span> <span> <a href="#">  Reply </a></span>
+							  </small>
+							  </div>
+							  </div>
+							    </li>
+							    </ul>
+							 
+							   
+							   
+							   
+							    <ul class="media-list">
+							    <li class="media">
+							    <div class="media-left">
+								<a href="#">
+								<img class="media-object" src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/14568216_1846771172221905_7955303932461656226_n.jpg?oh=83b3e0bcf6c4d0a61aa7610374ede0ba&oe=59D82B93">
+								</a>
+							  </div>
+							  <div class="media-body">
+							  
+								<p class="comment"><span><a href="#" > Muskaan Sehgal </a></span> Nice... </p>
+								 <div>
+							 <small> 
+	                          <span> <a href="#">Like </a></span> <span> <a href="#">  Reply </a></span>
+							  </small>
+							  </div>
+							  </div>
+							  </li>
+							  </ul>
+				                </div>
+							    </div>
+				  
+				  
+				  
+				  
+				  
+				  <img src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-0/p206x206/12744022_139299893123943_2392805343527727690_n.jpg?oh=c40ec7c5c5d079e2820a535ba6f90318&oe=59D515EE"> 
+				  <input class="eli" placeholder="Write a comment"></div>
+				</div>
+				
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h3 class="panel-title">
+					<img src="data:image/png;base64,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">
+					<span class="content-title"><a href="#">Google</a> added a new google</span>   
+					<div><p class="time-bar"> Feb. 11 at 3:00am</p></div>
+					</h3>
+					
+				  </div>
+				  <div class="panel-body">
+				  <div class="img size">
+				  <img id="tanya" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR3lTQJ4QvFh5bxd479iUI3lTSG9YdgVm7ZLPGUm22mx_-y-v0o">
+				  </div>
+					<div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+                    <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+					<span><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>Share</span>
+                  </div>
+				  </div>
+				  <div class="panel-footer">
+				  <div class="media">
+							  <div class="media-left">
+								<a href="#">
+								<img class="media-object" src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/18221902_407292566324673_4605785604328573075_n.jpg?oh=8d01494188bc1fba2ff2496a5eebfb63&oe=59E08EA1">
+								</a>
+							  </div>
+							  <div class="media-body">
+								<p class="comment"><span><a href="#" >Nikita Mahajan</a></span> nice....</p>
+								<div>
+							 <small> 
+	                          <span> <a href="#" >Like </a></span> <span> <a href="#">  Reply </a></span>
+							  </small>
+							  </div>
+							   
+							
+							
+							<ul class="media-list">
+							  <li class="media">
+							  <div class="media-left">
+								<a href="#">
+								<img class="media-object" src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/18301178_1859882997563014_3404238628006922723_n.jpg?oh=c35fbab4230fcfb138a258f1ea573a3b&oe=59D86A8C">
+								</a>
+							  </div>
+							  <div class="media-body">
+							   
+								<p class="comment"><span><a href="#" class="divya"> Elina Singh</a></span>Tq elli</p>
+								 <div>
+							 <small> 
+	                          <span> <a href="#" class="divya">Like </a></span> <span> <a href="#" class="divya">  Reply </a></span>
+							  </small>
+							  </div>
+							  </div>
+							   </li>
+							   </ul>
+							   
+							   
+							   <ul class="media-list">
+							  <li class="media">
+							  <div class="media-left">
+								<a href="#"><img class="media-object" src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/17904423_824430737708399_2462235606546461147_n.jpg?oh=b447727eb24adf9b2d9dccce50eebec2&oe=59C7AD14">
+								</a>
+							  </div>
+							  <div class="media-body">
+							 
+								<p class="comment"><span><a href="#" class="divya"> Divya Gupta </a></span> Nice.... </p>
+								 <div>
+							 <small> 
+	                          <span> <a href="#" class="divya">Like </a></span> <span> <a href="#" class="divya">  Reply </a></span>
+							  </small>
+							  </div>
+							  </div>
+							    </li>
+							    </ul>
+							 
+							   
+							   
+							   
+							    <ul class="media-list">
+							    <li class="media">
+							    <div class="media-left">
+								<a href="#"><img class="media-object" src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/17498658_1505637049500453_2009992423526378410_n.jpg?oh=2760c4ae69dd4e8980466e7f258921f3&oe=5A0B961D">
+								</a>
+							  </div>
+							  <div class="media-body">
+							  
+								<p class="comment"><span><a href="#" class="divya"> Shivangi Gautam </a></span> nice lines... </p>
+								 <div>
+							 <small> 
+	                          <span> <a href="#" class="divya">Like </a></span> <span> <a href="#" class="divya">  Reply </a></span>
+							  </small>
+							  </div>
+							  </div>
+							  </li>
+							  </ul>
+				               </div>
+							    </div>
+				  
+				  
+				  
+				  
+				  <img src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-0/p206x206/12744022_139299893123943_2392805343527727690_n.jpg?oh=c40ec7c5c5d079e2820a535ba6f90318&oe=59D515EE">
+				  <input class="eli" placeholder="Write a comment"></div>
+				</div>
+		 </div>
+		</div>
+		
+		
+		
+        <div class="hidden-xs hidden-sm col-md-3">
+		<div id="sidebar">
+		<div class="panel panel-default">
+		 <div class="panel-body">
+		<img src="http://www.фабриканастроения.рф/uploads/cat_knopka-k-8-marta.png"> <a href="#"> Rajesh chaudhary</a>
+		</div>
+		</div>
+		
+		
+		              <div class="trend-bg">
+					    <!-----Nav tabs------->
+					  
+				        <ul class="nav nav-tabs trending-border" role="tablist">
+						
+						<li><h5>&nbsp <b class="content-title">Trending</b></h5></li>
+					    
+						<li role="presentation" class="active"><a href="#politics" aria-controls="profile" role="tab" data-toggle="tab"  class="tab-margin" aria-expanded="true"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTNvw8c60kr9utpgSl64vDR4-yxypUgACKcY1B7tjkl8x9rwHTkvQ"><i class="fa fa-university" aria-hidden="true"></i></li></a>
+						<li role="presentation"><a href="#Entertainment" aria-controls="messages" role="tab" data-toggle="tab" class="tab-margin"><i class="fa fa-flask" aria-hidden="true"><img src="data:image/jpeg;base64,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"></i></li></a>
+						<li role="presentation"><a href="#Sports" aria-controls="images" role="tab" data-toggle="tab" class="tab-margin"><i class="fa fa-futbol-o" aria-hidden="true"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSqiVpb-N7zyEiRwAA0yP8dqIMxM7Z0F1HLzzoyxnr6O_JYL4uj"></i></li></a>
+						
+						
+					</ul>
+					<!-- Tab panes -->
+					<div class="tab-content">
+						<div role="tabpanel" class="tab-pane active" id="politics">
+						<div class="text-margin">
+						
+						<img src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/300x/550c0e7456abff7058c667363d1f97a8/3/0/3012.10-trending-up-icon-iconbunny.jpg">
+						<a href="#"><small><b>Narender Modi</small></b></a>
+						<p><small> India and Netherlands on same page on global issues....</small></p>
+						<img src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/300x/550c0e7456abff7058c667363d1f97a8/3/0/3012.10-trending-up-icon-iconbunny.jpg">
+						<a href="#"><small><b>Government of India</small></b></a>
+						<p><small>Aadhaar-PAN Linking Mandatory From July 1, Government Notifies Rules....</small></p>
+						<img src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/300x/550c0e7456abff7058c667363d1f97a8/3/0/3012.10-trending-up-icon-iconbunny.jpg">
+						<a href="#"><small><b>Mitch McConnell</small></b></a>
+						<p><small>Senate delays health care vote until after July 4 recess....</small></p>
+						<img src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/300x/550c0e7456abff7058c667363d1f97a8/3/0/3012.10-trending-up-icon-iconbunny.jpg">
+						<a href="#"><small><b>Indian Presidential Election</small></b></a>
+						<p><small>Flanked by Sonia and Manmohan, Meira Kumar Files Nomination Papers....</small></p>
+						<img src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/300x/550c0e7456abff7058c667363d1f97a8/3/0/3012.10-trending-up-icon-iconbunny.jpg">
+						<a href="#"><small><b>Pay Commission</small></b></a>
+						<p><small>7th Pay Commission: Modi Cabinet approves revision in HRA, other....</small></p>
+						<img src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/300x/550c0e7456abff7058c667363d1f97a8/3/0/3012.10-trending-up-icon-iconbunny.jpg">
+						<a href="#"><small><b>Facebook</small></b></a>
+						<p><small>Facebook has officially hit 2 billion user.....</small></p>
+						<img src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/300x/550c0e7456abff7058c667363d1f97a8/3/0/3012.10-trending-up-icon-iconbunny.jpg">
+						<a href="#"><small><b>Petya Cyberattack</small></b></a>
+						<p><small>'Petya' ransomware attack strikes companies across Europe and US....</small></p>
+						<img src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/300x/550c0e7456abff7058c667363d1f97a8/3/0/3012.10-trending-up-icon-iconbunny.jpg">
+						<a href="#"><small><b>Air India</small></b></a>
+						<p><small>Government bites the bullet on Air India, gives in-principle.....</small></p>
+						</div>
+						</div>
+						
+						
+						
+						<div role="tabpanel" class="tab-pane active" id="Entertainment">
+						<div class="text-margin">
+						
+						<img src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/300x/550c0e7456abff7058c667363d1f97a8/3/0/3012.10-trending-up-icon-iconbunny.jpg">
+						<a href="#"><small><b>Democratic values</small></b></a>
+						<p><small>Will contest on plank of democratic values....</small></p>
+						<img src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/300x/550c0e7456abff7058c667363d1f97a8/3/0/3012.10-trending-up-icon-iconbunny.jpg">
+						<a href="#"><small><b>Government of India</small></b></a>
+						<p><small>Aadhaar-PAN Linking Mandatory From July 1, Government Notifies Rules...</small></p>
+						<img src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/300x/550c0e7456abff7058c667363d1f97a8/3/0/3012.10-trending-up-icon-iconbunny.jpg">
+						<a href="#"><small><b>Mitch McConnell</small></b></a>
+					    <p><small>Senate delays health care vote until after July 4 recess....</small></p>
+						<img src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/300x/550c0e7456abff7058c667363d1f97a8/3/0/3012.10-trending-up-icon-iconbunny.jpg">
+						<a href="#"><small><b>Indian Presidential Election</small></b></a>
+						<p><small>Flanked by Sonia and Manmohan, Meira Kumar Files Nomination Papers....</small></p>
+						<img src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/300x/550c0e7456abff7058c667363d1f97a8/3/0/3012.10-trending-up-icon-iconbunny.jpg">
+						<a href="#"><small><b>Pay Commission</small></b></a>
+						<p><small>7th Pay Commission: Modi Cabinet approves revision in HRA, other.....</small></p>
+						<img src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/300x/550c0e7456abff7058c667363d1f97a8/3/0/3012.10-trending-up-icon-iconbunny.jpg">
+						<a href="#"><small><b>Air India</small></b></a>
+						<p><small>Government bites the bullet on Air India, gives in-principle.....</small></p>
+						<img src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/300x/550c0e7456abff7058c667363d1f97a8/3/0/3012.10-trending-up-icon-iconbunny.jpg">
+						<a href="#"><small><b>Caracas, Venezuela</small></b></a>
+						<p><small>Venezuela: police helicopter attacks supreme court with grenades....</small></p>
+						</div>
+						</div>
+						
+						
+						<div role="tabpanel" class="tab-pane active" id="Sports">
+						<div class="text-margin">
+						
+						<img src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/300x/550c0e7456abff7058c667363d1f97a8/3/0/3012.10-trending-up-icon-iconbunny.jpg">
+						<a href="#"><small><b>Railway</small></b></a>
+						<p><small>Heavy rains lash Mumbai; vehicular traffic, suburban railway.....</small></p>
+						<img src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/300x/550c0e7456abff7058c667363d1f97a8/3/0/3012.10-trending-up-icon-iconbunny.jpg">
+						<a href="#"><small><b>Facebook</small></b></a>
+						<p><small>Facebook has officially hit 2 billion users....</small></p>
+						<img src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/300x/550c0e7456abff7058c667363d1f97a8/3/0/3012.10-trending-up-icon-iconbunny.jpg">
+						<a href="#"><small><b>Petya Cyberattack</small></b></a>
+						<p><small>'Petya' ransomware attack strikes companies across Europe and US......</small></p>
+						<img src="https://www.iconbunny.com/icons/media/catalog/product/cache/2/thumbnail/300x/550c0e7456abff7058c667363d1f97a8/3/0/3012.10-trending-up-icon-iconbunny.jpg">
+						<a href="#"><small><b>Jawaharlal Nehru Port</small></b></a>
+						<p><small>Petya Ransomware Hits Operations at India's Largest Container Port.....</small></p>
+						</div>
+						</div>
+						
+						
+						
+					
+						
+						
+						
+						
+					
+					
+					</div>
+					
+					</div>
+					
+					<div class="panel panel-default">
+					    <div class="panel-body">
+						<h3 class="panel-title content-title">Suggested Pages</h3>
+						</div>
+						<div class="panel-body">
+						<img id="navs" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcST7YDjHjnP5DURcPrZpcFPO6BI6I4kOiqTvNeCy4NRYFbA--5J"> 
+						<a href="#">Garda View Guest House</a>
+						<div class="content-title">Holiday home rental · 58 likes</div>
+						<button type="Like Page" class="btn btn-default"><span><img src="https://thumb1.shutterstock.com/display_pic_with_logo/164575/160669718/stock-vector-vector-thumb-up-icon-160669718.jpg"><b> Like Page </b></span></button>
+						</div>
+						</div>
+		
+					
+					<div class="panel panel-default">
+					<div class="panel-body">
+				    <p class="content-title"> English (UK). <span><a href="#" class="trends"> English(US). हिन्दी </span></a>
+					<button type="add" class="btn btn-default content-title btn-position"><span class="add-position">+</span></button></p>
+					</div>
+					</div>
+					
+					
+					
+</div>
+		</div>
+		</div>
+      </div>
+    </div>
+	  
+	
+	
+	
+  
+  <footer>
+  <ul class="nav nav-pills pull-right">
+      <li role="presentation "><a href="#" class="divya pull-right">About Us</a></li>
+      <li role="presentation "><a href="#" class="divya pull-right">Home</a></li>
+      <li role="presentation "><a href="#" class="divya pull-right">Privacy</a></li>
+	  <li role="presentation "><a href="#" class="divya pull-right">Advertising</a></li>
+      <li role="presentation "><a href="#" class="divya pull-right">Cookies</a></li>
+      <li role="presentation "><a href="#" class="divya pull-right">Add Choices</a></li>
+  </ul>
+  </footer>
+  
+  </div>
+ 
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

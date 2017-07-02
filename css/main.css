@@ -1,0 +1,185 @@
+/*header {
+  background-color: #4267b2;
+  height: 30px;
+}*/
+footer {
+  background-color: #e9ebee;
+  height: 30px;
+}
+#wrapper {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+#main,
+#menu,
+#sidebar {
+  height: 600px;
+}
+
+#main { background-color: orange; }
+
+#menu { background-color: pink; }
+
+#sidebar { background-color: yellow; }
+
+#main,
+#menu,
+#sidebar {
+  background-color: #e9ebee;
+}
+#header {
+    background-color: #4267b2;
+    color: white;
+}
+.white-text {
+  color: white !important;
+  
+}
+.glyphicon
+{
+  font-size: 15px;	
+	color:white;
+}
+.pull-right {
+    float: right !important;
+}
+.emo {
+	margin-left:-10px;
+	margin-top: 5px;
+	height:30px;
+}
+.nikita {
+	margin-left:-20px;
+	margin-top: 5px;
+	height:30px;
+}
+.list-heading {
+    padding: 20px 15px 0 15px;
+}
+.panel-body .glyphicon {
+    margin-left: 10px;
+    margin-right: 4px;
+}
+.image-post {
+    margin-bottom: 15px;
+}
+#main {
+    overflow: auto;
+}
+img
+{
+	  margin:0px 0px 0px 0px;
+     
+      height:25px;
+      width:25px;
+	
+}
+#main::-webkit-scrollbar {
+    display: none;
+}
+.badge
+{
+  background-color: #e9ebee;
+   color: #A9A7A0;  
+   float: right;
+	
+}
+.glyphicon
+{
+	color: black ;
+}
+#white-text
+{
+	color: white !important;	
+}
+#menu {
+    overflow: auto;
+}
+#menu::-webkit-scrollbar {
+    display: none;
+}
+.embed-responsive{
+	margin-bottom:15px;
+}
+.sidebar-color{
+	color: black;
+}
+#niki{
+	height:350px;
+	width:520px;
+	margin-bottom:15px;
+}
+.black{
+	color:black;
+}
+.eli{
+	width: 90%;
+	margin-top: 15px;
+}
+.panel-body .eli{
+	outline: none;
+	border: none;
+}
+#tanya{
+	height:350px;
+	width:520px;
+	margin-bottom:15px;
+}
+.comment {
+    margin: 0;
+}
+.nishu
+{
+	height: 17px;
+	width: 17px;
+}
+.time-bar{
+	position:relative;
+	top:-2px;
+	left:30px;
+	font-size:13px;
+	color:gray;
+}
+.content-title{
+	color: gray;
+}
+#sidebar{
+    overflow: auto;
+}
+#sidebar::-webkit-scrollbar {
+    display: none;
+}
+.
+.trend-bg
+{
+	background-color:white;
+	border:1px solid silver;
+	size:45%
+	
+}
+.pidi
+{
+	height: 350px;
+	width: 520px;
+}
+#navs{
+	height:250px;
+	width:270px;
+	margin-bottom:20px;
+	padding-right:50px;
+}
+.btn-position{
+	position:relative;
+	left:200px;
+	top:-21px;
+	height:30px;
+}
+.add-position{
+	position:relative;
+	top:-4px;
+}
+	
+
+	
+	
