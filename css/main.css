@@ -114,18 +114,14 @@ img
 	color:black;
 }
 .eli{
-	width: 90%;
+	width: 85%;
 	margin-top: 15px;
 }
 .panel-body .eli{
 	outline: none;
 	border: none;
 }
-#tanya{
-	height:350px;
-	width:520px;
-	margin-bottom:15px;
-}
+
 .comment {
     margin: 0;
 }
