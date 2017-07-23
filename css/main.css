@@ -175,6 +175,17 @@ img
 	position:relative;
 	top:-4px;
 }
+.badges
+{
+	border-radius:2px;
+	background-color:#fa3e3e !important;
+	padding:0px 3px;
+	color:white;
+	position:relative;
+	left:-6px;
+	top:-10px;
+
+}
 	
 
 	
